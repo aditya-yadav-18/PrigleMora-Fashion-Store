@@ -6,21 +6,21 @@ const cards = [
     url: "/collections/new",
     subtitle: "Latest Trends",
     button: "Shop Now",
-    image: "/src/assets/PromoCardBg.png",
+    image:"/PromoCardBg.png";,
   },
   {
     title: "Best Sellers",
     url: "/collections/best",
     subtitle: "Popular Picks",
     button: "Shop Now",
-    image: "/src/assets/PromoCardBg.png",
+    image: "PromoCardBg.png",
   },
   {
     title: "Seasonal Sale",
     url: "/collections/seasonal",
     subtitle: "Up to 50% Off",
     button: "Shop Now",
-    image: "/src/assets/PromoCardBg.png",
+    image: "/PromoCardBg.png",
   },
 ];
 
