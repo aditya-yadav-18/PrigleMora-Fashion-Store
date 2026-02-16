@@ -163,8 +163,8 @@ export default function Navbar() {
                 </>
               )}
               {user.role === "admin" && (
-                <NavLink to="/admin/analytics" className="text-gray-700">
-                  <FaCalculator size={18} />
+                <NavLink to="/admin/collections" className="text-gray-700">
+                  <FaLayerGroup size={18} />
                 </NavLink>
               )}
               <NavLink to="/user" className="text-gray-700">
