@@ -3,17 +3,17 @@ import { NavLink } from "react-router-dom";
 const collections = [
   {
     title: "New Arrivals",
-    image: "/src/assets/NewSale.png",
+    image: "/NewSale.png",
     link: "/collections/new",
   },
   {
     title: "Seasonal Sale",
-    image: "/src/assets/SeasonalSale.png",
+    image: "/SeasonalSale.png",
     link: "/collections/seasonal",
   },
   {
     title: "Best Sellers",
-    image: "/src/assets/BestOffers.png",
+    image: "/BestOffers.png",
     link: "/collections/best",
   },
 ];
