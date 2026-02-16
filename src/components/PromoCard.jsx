@@ -6,14 +6,14 @@ const cards = [
     url: "/collections/new",
     subtitle: "Latest Trends",
     button: "Shop Now",
-    image:"/PromoCardBg.png";,
+    image: "/PromoCardBg.png",
   },
   {
     title: "Best Sellers",
     url: "/collections/best",
     subtitle: "Popular Picks",
     button: "Shop Now",
-    image: "PromoCardBg.png",
+    image: "/PromoCardBg.png",
   },
   {
     title: "Seasonal Sale",
@@ -33,10 +33,11 @@ export default function PromoCards() {
             key={index}
             className="relative h-[220px] rounded-lg overflow-hidden group"
             style={{
-              backgroundImage: `url(${card.image})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
+  backgroundImage: `url(${card.image})`,
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+}}
+
           >
             {/* Overlay */}
             <div className="absolute inset-0 bg-white/60 group-hover:bg-white/70 transition" />
