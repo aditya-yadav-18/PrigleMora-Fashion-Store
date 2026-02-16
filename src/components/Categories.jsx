@@ -3,24 +3,25 @@ const categories = [
   {
     name: "Earrings",
     price: "₹ 120.00",
-    image: "/src/assets/earring.png",
+    image: "/earring.png",
   },
   {
     name: "Jhumkas",
     price: "₹ 270.00",
-    image: "/src/assets/jhumka.png",
+    image: "/jhumka.png",
   },
   {
     name: "Studs",
     price: "₹ 450.00",
-    image: "/src/assets/studs.png",
+    image: "/studs.png",
   },
   {
     name: "Jhumki Sets",
     price: "₹ 299.99",
-    image: "/src/assets/jhumka box.png",
+    image: "/jhumka-box.png",
   },
 ];
+
 
 export default function FeaturedCategories() {
   return (
